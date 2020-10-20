@@ -17,6 +17,7 @@ module.exports = {
         alias: {
             '@': path.resolve(__dirname, 'src'),
             '@core': path.resolve(__dirname, 'src/core'),
+            '@main': path.resolve(__dirname, 'src/main'),
         }
     },
     plugins: [
